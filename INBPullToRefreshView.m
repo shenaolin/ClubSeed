@@ -6,24 +6,7 @@
 //  Copyright (c) 2015년 intmain. All rights reserved.
 //
 
-typedef enum {
-    INBPullToRefreshViewStateNormal = 0,
-    INBPullToRefreshViewStateStopped,
-    INBPullToRefreshViewStateLoading,
-} INBPullToRefreshViewState;
 
-#import "INBPullToRefreshView.h"
-#import <QuartzCore/QuartzCore.h>
-#import <objc/runtime.h>
-#import "UIImageView+AFNetworking.h"
-
-
-@interface UINavigationBar (Addition)
-
-- (void)hideBottomHairline;
-- (void)showBottomHairline;
-
-@end
 
 @implementation UINavigationBar (Addition)
 
